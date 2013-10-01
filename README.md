@@ -8,7 +8,7 @@ Mongoose plugin to generate a random hash
 
 ## Example
 
-```
+```js
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 var hash =require('mongoose-hash');
