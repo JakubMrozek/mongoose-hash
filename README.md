@@ -29,9 +29,7 @@ var UserSchema = new Schema(fields);
 
 UserSchema.plugin(hash, {
   field: 'randomHash',
-  salt: 'secret string',
-  iterations: 1000,
-  keylen: 64
+  size: 32
 });
 
 module.exports = mongoose.model('User', UserSchema);
