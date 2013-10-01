@@ -1,0 +1,19 @@
+{
+  "name": "mongoose-hash",
+  "version": "0.1.0",
+  "description": "Mongoose plugin to generate a random hash",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/JakubMrozek/mongoose-hash.git"
+  },
+  "keywords": [
+    "mongoose"
+  ],
+  "author": "Jakub Mrozek <jakub.mrozek@gmail.com>",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/JakubMrozek/mongoose-hash/issues"
+  }
+}
